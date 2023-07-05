@@ -1,4 +1,4 @@
-name: Test
+name: Foo
 
 on:
   push:
@@ -9,9 +9,9 @@ on:
 
 jobs:
   test:
-    name: Test
+    name: Foo
     runs-on: ubuntu-latest
     steps:
-      - name: Bla
+      - name: Foo
         run: date
 

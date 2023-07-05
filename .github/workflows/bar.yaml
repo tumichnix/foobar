@@ -1,0 +1,13 @@
+name: Bar
+
+on:
+  workflow_call:
+
+jobs:
+  test:
+    name: Bar
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bar
+        run: date
+
