@@ -15,5 +15,6 @@ jobs:
       - name: Foo
         run: date
   bar:
+    needs: [ test ]
     uses: ./.github/workflows/bar.yaml
 
