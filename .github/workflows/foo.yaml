@@ -14,4 +14,6 @@ jobs:
     steps:
       - name: Foo
         run: date
+  bar:
+    uses: ./.github/workflows/bar.yaml
 
